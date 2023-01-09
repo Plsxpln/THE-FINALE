@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    
+    section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    }
+    .container{
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+    }
+    
+    .one {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLulXnEYRBWH3DsIeHQJtTpQVBMuF4eH9JPA&amp;usqp=CAU");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .two {
+        background-image: url("https://i.pinimg.com/564x/b4/41/43/b44143f2c5847eba26dc029b27622efe.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .three {
+        background-image: url("https://i.pinimg.com/564x/2d/b5/f8/2db5f8ee6e6fbe4dbdafbe840b8a0108.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .four {
+        background-image: url("https://i.pinimg.com/564x/ca/80/a9/ca80a95f687520784dbc3c749adf355c.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .five {
+        background-image: url("https://wallpapercave.com/wp/wp8797909.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .six {
+        background-image: url("https://wallpaperaccess.com/full/1580037.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        padding: 10px 90px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.6);
+        border-bottom: 1px solid #fff;
+    }
+    nav.topnav{
+        padding: 22px 20px;
+        height: 80px;
+        float: left;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    nav ul{
+
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    nav ul li a{
+        line-height: 80px;
+        color: #fff;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav ul li a:hover{
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 6px;
+    }
+    .lname{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        float: left;
+        font-size: 30px;
+        margin-left: 0%;
+        margin-top: 2%;
+        color: rgb(255, 255, 255);
+    }
+    .lpic{
+        float: left;
+    }
+    .home{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .introduction{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 150%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .body{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 250%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .body2{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 350%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .body3{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 430%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .footer{
+        max-width: 650px;
+        position: absolute;
+        display: block;
+        top: 530%;
+        left: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+        background: rgba(175, 171, 171, 0.4);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.938);
+        padding: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .gdrive:hover{
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 6px;
+    }
+    .credits{
+        margin-top: 48%;
+        color: rgb(255,215,0);
+    }
+    .virus{
+        font-weight: bold;
+    }
+    .computer{
+        font-weight: bold;
+    }
+    .external{
+        font-weight: bold;
+    }
